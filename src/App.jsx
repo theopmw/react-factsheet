@@ -2,8 +2,8 @@ import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import './App.css';
 
-import Navbar from './src/components/Navbar';
-import Main from './src/components/Main';
+import Navbar from './components/Navbar';
+import Main from './components/Main';
 
 function App() {
   const [count, setCount] = useState(0);
